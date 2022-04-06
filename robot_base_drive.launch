@@ -1,9 +1,0 @@
-
-<launch>
-	<node pkg = "rosaria" type = "RosAria" name = "RosAria">
-		<param name="port" value="/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller_D-if00-port0"/>
-		<remap from="/RosAria/cmd_vel" to="/cmd_vel"/>
-	</node>
-
-	
-</launch>
