@@ -1,6 +1,0 @@
-<launch>
-    <arg name="map_file" default="simulation"/>
-    <include file="$(find pt3a_2dnav)/launch/move_base.launch">
-    </include>
-
-</launch>
